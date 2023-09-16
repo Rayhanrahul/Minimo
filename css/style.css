@@ -1,0 +1,86 @@
+/*font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+/*header start*/
+header{
+    width: 90%;
+   /* background-color: rgb(91, 180, 180);*/
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.logo{
+    width: 50%;
+}
+.logo img{
+
+}
+nav{
+    width: 50%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+nav ul li{
+    margin-left: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#626262;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+} 
+/*header end*/
+/* banner start*/
+.banner{
+    width: 90%;
+    margin: auto;
+}
+.banner img{
+    width: 100%;
+}
+/* banner end*/
+
+/* section photodiary start*/
+.photodiary{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+}
+.photodiary h4{
+    color:#b4ad9e;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.photodiary h1{
+    color: #626262;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.photodiary p{
+    color: #626262;
+    margin-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+}
+.photodiary a{
+    text-decoration: none;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* section photodiary end*/
